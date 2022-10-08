@@ -31,7 +31,9 @@ public class Circle
      */
     public Circle(double radius)
     {
-        // TODO - replace this line with your code
+        x = 0;
+        y = 0;
+        this.radius = radius;
     }
 
     /**
@@ -44,7 +46,9 @@ public class Circle
      */
     public Circle(double x, double y, double radius)
     {
-        // TODO - replace this line with your code
+        this.x = x;
+        this.y = y;
+        this.radius = radius;
     }
 
     //accessors
@@ -86,7 +90,7 @@ public class Circle
      */
     public void setRadius(double radius)
     {
-        // TODO - replace this line with your code
+        this.radius = radius;
     }
 
     /**
@@ -96,7 +100,7 @@ public class Circle
      */
     public void setX(double x)
     {
-        // TODO - replace this line with your code
+        this.x = x;
     }
 
     /**
@@ -106,7 +110,7 @@ public class Circle
      */
     public void setY(double y)
     {
-        // TODO - replace this line with your code
+        this.y = y;
     }
 
     //================== DO NOT TOUCH CODE BELOW THIS LINE ==========================
